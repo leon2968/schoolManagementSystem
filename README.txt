@@ -1,28 +1,28 @@
-SMS Application
+### SMS Application
 ---------------
 
 How to run:
 
-1. DB information is in hibernate.cfg.xml, please change accordingly.
+#### 1. DB information is in hibernate.cfg.xml, please change accordingly.
 
 <property name="connection.url">jdbc:mariadb://localhost:3306/smsdb</property>
 <property name="connection.username">user1</property>
 <property name="connection.password">user1</property>
 
 
-2. Run the following SQL script to initilize DB.
+#### 2. Run the following SQL script to initilize DB.
 
 
 ./src/main/resources/initializeDB.sql
 
 
-3. Run the application via SMSRunner, choose option 9 to feed sample data into DB.
+#### 3. Run the application via SMSRunner, choose option 9 to feed sample data into DB.
 
 Files are located in the resources folder:
 ./src/main/resources/Student-1.sql
 ./src/main/resources/Course-1.sql
 
-4. Run the application via SMSRunner again to perform various operations.
+#### 4. Run the application via SMSRunner again to perform various operations.
 Example below:
 
 ******************************
